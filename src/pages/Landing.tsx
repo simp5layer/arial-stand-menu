@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import arialLogo from "@/assets/TrannyLogo.jpg";
+import arialLogo from "@/assets/TrannyLogo.png";
 
 const Landing = () => {
   const navigate = useNavigate();
