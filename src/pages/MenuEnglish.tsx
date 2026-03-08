@@ -8,6 +8,7 @@ const menuData = [
     title: "Main 🍟",
     items: [
       { name: "Fries", price: "10.00 SR" },
+      { name: "Sweet Potato", price: "15.00 SR" },
       { name: "Animal Style Fries", price: "20.00 SR" },
       { name: "Shrimp Fries", price: "25.00 SR" },
     ],

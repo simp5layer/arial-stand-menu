@@ -8,6 +8,7 @@ const menuData = [
     title: "الاساس 🍟",
     items: [
       { name: "بطاطس", price: "١٠ ريال" },
+      { name: "بطاطس للحلوين", price: "١٥ ريال" },
       { name: "بطاطس الوحوش", price: "٢٠ ريال" },
       { name: "بطاطس جمبري", price: "٢٥ ريال" },
     ],
