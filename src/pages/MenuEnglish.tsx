@@ -11,6 +11,8 @@ const menuData = [
       { name: "Sweet Potato", price: "15.00 SR" },
       { name: "Animal Style Fries", price: "25.00 SR" },
       { name: "Shrimp Fries", price: "30.00 SR" },
+      { name: "Beauty and the Beast", price: "30.00 SR" },
+      { name: "Sea Monster", price: "45.00 SR" },
     ],
   },
   {
