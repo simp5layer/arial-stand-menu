@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { TikTokEmbed } from "react-social-media-embed";
 import arialLogo from "@/assets/arial-logo.jpg";
 
 const Landing = () => {
@@ -18,6 +19,20 @@ const Landing = () => {
         <div className="text-center space-y-1">
           <p className="text-lg font-semibold text-primary tracking-wide">Simple & Friendly</p>
           <p className="text-lg font-semibold text-primary font-arabic" dir="rtl">بسيط وودود</p>
+        </div>
+
+        {/* TikTok Embed */}
+        <div className="w-full flex flex-col items-center my-2">
+          <div className="text-center space-y-1 mb-2">
+            <p className="text-sm font-medium text-primary">Watch Our Latest</p>
+            <p className="text-sm font-medium text-primary font-arabic" dir="rtl">آخر فيديو</p>
+          </div>
+          <div className="w-full max-w-[325px] rounded-2xl overflow-hidden">
+            <TikTokEmbed
+              url="https://www.tiktok.com/@arialstand/video/7475259647498711302"
+              width={300}
+            />
+          </div>
         </div>
 
         {/* Language buttons */}
