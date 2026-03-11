@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { TikTokEmbed } from "react-social-media-embed";
 import arialLogo from "@/assets/arial-logo.jpg";
 
 const Landing = () => {
