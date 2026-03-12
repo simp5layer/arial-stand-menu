@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { TikTokEmbed } from "react-social-media-embed";
 import arialLogo from "@/assets/arial-logo.jpg";
 
 const Landing = () => {
@@ -27,12 +26,12 @@ const Landing = () => {
             <p className="text-sm font-medium text-primary">Watch Our Latest</p>
             <p className="text-sm font-medium text-primary font-arabic" dir="rtl">آخر فيديو</p>
           </div>
-          <div className="w-full max-w-[325px] rounded-2xl overflow-hidden">
-            <TikTokEmbed
-              url="https://www.tiktok.com/@arialstand/video/7475259647498711302"
-              width={300}
-            />
-          </div>
+          <iframe
+            src="https://www.tiktok.com/player/v1/7615800382727539986?music_info=1&description=1"
+            style={{ width: '100%', height: 550, maxWidth: 325, border: 'none', borderRadius: '16px' }}
+            allow="fullscreen"
+            title="Arial Stand TikTok"
+          />
         </div>
 
         {/* Language buttons */}
