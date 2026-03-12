@@ -20,20 +20,6 @@ const Landing = () => {
           <p className="text-lg font-semibold text-primary font-arabic" dir="rtl">بسيط وودود</p>
         </div>
 
-        {/* TikTok Embed */}
-        <div className="w-full flex flex-col items-center my-2">
-          <div className="text-center space-y-1 mb-2">
-            <p className="text-sm font-medium text-primary">Watch Our Latest</p>
-            <p className="text-sm font-medium text-primary font-arabic" dir="rtl">آخر فيديو</p>
-          </div>
-          <iframe
-            src="https://www.tiktok.com/player/v1/7615800382727539986?music_info=1&description=1"
-            style={{ width: '100%', height: 550, maxWidth: 325, border: 'none', borderRadius: '16px' }}
-            allow="fullscreen"
-            title="Arial Stand TikTok"
-          />
-        </div>
-
         {/* Language buttons */}
         <div className="flex flex-col gap-3 w-full mt-4">
           <button
@@ -48,6 +34,20 @@ const Landing = () => {
           >
             العربية
           </button>
+        </div>
+
+        {/* TikTok Embed */}
+        <div className="w-full flex flex-col items-center my-2">
+          <div className="text-center space-y-1 mb-2">
+            <p className="text-sm font-medium text-primary">Watch Our Latest</p>
+            <p className="text-sm font-medium text-primary font-arabic" dir="rtl">آخر فيديو</p>
+          </div>
+          <iframe
+            src="https://www.tiktok.com/player/v1/7615800382727539986?music_info=1&description=1"
+            style={{ width: '100%', height: 550, maxWidth: 325, border: 'none', borderRadius: '16px' }}
+            allow="fullscreen"
+            title="Arial Stand TikTok"
+          />
         </div>
       </div>
 
