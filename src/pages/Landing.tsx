@@ -54,10 +54,10 @@ const Landing = () => {
       {/* Footer */}
       <footer className="mt-auto pt-12 pb-6 text-center space-y-2 max-w-xs">
         <p className="text-xs text-muted-foreground leading-relaxed">
-          Open everyday • 10:00 PM – 2:30 AM • Alsafa St., Mohammediya
+          Open everyday • 10:00 PM – 2:30 AM • Abhur Al Junoobiyah, behind Farsi Seven twin tower
         </p>
         <p className="text-xs text-muted-foreground leading-relaxed font-arabic" dir="rtl">
-          فاتحين كل يوم • ١٠ مساءً إلى ٢:٣٠ صباحاً • شارع الصفا - حي المحمدية
+          فاتحين كل يوم • ١٠ مساءً إلى ٢:٣٠ صباحاً • ابحر الجنوبية، خلف ابراج الفارسي ٧
         </p>
         <p className="text-[10px] text-muted-foreground/60 mt-4">Powered by Arial</p>
       </footer>
